@@ -1,0 +1,20 @@
+if(marks>=0 && marks<=29)
+        {System.out.println("Level 1,not achieved:not promoted"); }
+        
+        else if(marks>=30 && marks<=39)
+        {System.out.println("Level 2,elementary achievement:not prompted");}
+        
+        else if(marks>=40 && marks<=49)
+        {System.out.println("Level 3,moderate achievement:promoted");}                
+        
+        else if (marks>=50 && marks<=59)
+        {System.out.println("level 4,adequate achievement:promoted");}
+        
+        else if (marks>=60 && marks<=69)
+        {System.out.println("level 5,substantial achievement:promoted");}
+        
+        else if (marks>=70 && marks<=79)
+        {System.out.println("level 6,meritorious achievement:promoted");}
+        
+        else if (marks>=80 && marks<=100)
+        {System.out.println("level 7, outstanding achievement:promoted");}
